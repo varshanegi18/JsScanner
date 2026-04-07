@@ -27,7 +27,7 @@ A lightweight, container‑ready web tool that scans any domain to uncover expos
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/domain-file-scanner.git
+git clone https://github.com/varshanegi18/JsScanner.git
 cd JsScanner
 ```
 ### 2. Run the scanner
