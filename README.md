@@ -1,10 +1,9 @@
-# 🕵️ DomainSecretHunter
+# 🕵️ DomainScanner
 
 **Crawl, Discover, Expose.**  
 A lightweight, container‑ready web tool that scans any domain to uncover exposed JavaScript files, detect hardcoded secrets (API keys, passwords, tokens, database URLs), and probe sensitive paths (`.env`, `wp-config.php`, backups, logs, etc.).
 
-![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/domainsecrethunter)
-![License](https://img.shields.io/github/license/yourusername/domainsecrethunter)
+
 
 ---
 
@@ -25,21 +24,30 @@ A lightweight, container‑ready web tool that scans any domain to uncover expos
 
 ## 📦 Quick Start
 
-### GUI Version
+### 1. Clone the repository
 
-Pull and run the image in one command:
+```bash
+git clone https://github.com/yourusername/domain-file-scanner.git
+cd JsScanner
+```
+### 2. Run the scanner
+#### GUI Version
 
 ```bash
 # Build and run (recommended)
 docker build -t js_scanner .
 docker run --rm -p 8000:8000 js_scanner
 ```
-
 Open **http://localhost:8000**
-### CLI version 
+
+#### CLI version 
+Run the scanner
 ```bash
 python scanner.py https://example.com
-
+```
+Advanced usage
+```bash
+python scanner.py example.com --max-pages 120 --timeout 10 --output report.json
 ```
 ## Files
 
