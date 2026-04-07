@@ -23,16 +23,9 @@ A lightweight, container‑ready web tool that scans any domain to uncover expos
 - **Zero dependencies on host** – runs anywhere Docker is available.
 ---
 
-## 📦 Quick Start (Docker)
+## 📦 Quick Start
 
 Pull and run the image in one command:
-
-```bash
-docker run --rm -p 8000:8000 yourusername/domainsecrethunter:latest
-
-Security scanner with real-time progress UI. Crawls a target domain to find JavaScript files, scan them for 40+ hardcoded secret patterns, and probe for sensitive file exposures.
-
-## Quick Start
 
 ```bash
 # Build and run (recommended)
