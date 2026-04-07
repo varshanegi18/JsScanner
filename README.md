@@ -41,8 +41,9 @@ docker run --rm -p 8000:8000 js_scanner
 Open **http://localhost:8000**
 
 #### CLI version 
-Run the scanner
+
 ```bash
+# Run the scanner
 python scanner.py https://example.com
 ```
 Advanced usage
