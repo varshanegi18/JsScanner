@@ -25,6 +25,8 @@ A lightweight, container‑ready web tool that scans any domain to uncover expos
 
 ## 📦 Quick Start
 
+### GUI Version
+
 Pull and run the image in one command:
 
 ```bash
@@ -34,7 +36,11 @@ docker run --rm -p 8000:8000 js_scanner
 ```
 
 Open **http://localhost:8000**
+### CLI version 
+```bash
+python scanner.py https://example.com
 
+```
 ## Files
 
 | File | Purpose |
