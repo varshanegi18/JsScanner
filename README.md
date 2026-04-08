@@ -36,7 +36,7 @@ cd JsScanner
 ```bash
 # Build and run (recommended)
 docker build -t js_scanner .
-docker run --rm -p 8000:8000 js_scanner
+docker run -p 8000:8000 js_scanner
 ```
 Open **http://localhost:8000**
 
